@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2366273-2915-4FE5-98C7-0FCB0EC947A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Host", "src\ImageClassification.Host\ImageClassification.Host.csproj", "{42EC2355-84C0-4652-A581-96B32CBF922F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Core", "src\ImageClassification.Core\ImageClassification.Core.csproj", "{94F0D179-6C7A-47F7-8C57-0D6A92D2FB39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Service", "src\ImageClassification.Service\ImageClassification.Service.csproj", "{8F5FAE2D-672B-4658-A8C5-F718CA889C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageClassification.Adapter", "src\ImageClassification.Adapter\ImageClassification.Adapter.csproj", "{54C41ADC-EF54-4E5D-8DE1-34CE5E11C8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageClassification.ML", "src\ImageClassification.ML\ImageClassification.ML.csproj", "{D19B1756-C586-4D87-B3EF-C59FF096FA03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42EC2355-84C0-4652-A581-96B32CBF922F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EC2355-84C0-4652-A581-96B32CBF922F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EC2355-84C0-4652-A581-96B32CBF922F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EC2355-84C0-4652-A581-96B32CBF922F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F0D179-6C7A-47F7-8C57-0D6A92D2FB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F0D179-6C7A-47F7-8C57-0D6A92D2FB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F0D179-6C7A-47F7-8C57-0D6A92D2FB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F0D179-6C7A-47F7-8C57-0D6A92D2FB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5FAE2D-672B-4658-A8C5-F718CA889C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5FAE2D-672B-4658-A8C5-F718CA889C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5FAE2D-672B-4658-A8C5-F718CA889C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5FAE2D-672B-4658-A8C5-F718CA889C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C41ADC-EF54-4E5D-8DE1-34CE5E11C8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C41ADC-EF54-4E5D-8DE1-34CE5E11C8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C41ADC-EF54-4E5D-8DE1-34CE5E11C8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C41ADC-EF54-4E5D-8DE1-34CE5E11C8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19B1756-C586-4D87-B3EF-C59FF096FA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19B1756-C586-4D87-B3EF-C59FF096FA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19B1756-C586-4D87-B3EF-C59FF096FA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19B1756-C586-4D87-B3EF-C59FF096FA03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42EC2355-84C0-4652-A581-96B32CBF922F} = {C2366273-2915-4FE5-98C7-0FCB0EC947A5}
+		{94F0D179-6C7A-47F7-8C57-0D6A92D2FB39} = {C2366273-2915-4FE5-98C7-0FCB0EC947A5}
+		{8F5FAE2D-672B-4658-A8C5-F718CA889C7B} = {C2366273-2915-4FE5-98C7-0FCB0EC947A5}
+		{54C41ADC-EF54-4E5D-8DE1-34CE5E11C8C9} = {C2366273-2915-4FE5-98C7-0FCB0EC947A5}
+		{D19B1756-C586-4D87-B3EF-C59FF096FA03} = {C2366273-2915-4FE5-98C7-0FCB0EC947A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {124FAE75-0A24-40AB-BCC8-24C8C155B594}
+	EndGlobalSection
+EndGlobal
